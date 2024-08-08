@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link href="https://fonts.cdnfonts.com/css/agane?styles=21015,21016,21018,21020" rel="stylesheet">
+        <script>
+            function redirectTo() {
+                window.location.href = "https://www.institutodeguitarraerock.com/";
+            }
+        </script>
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/agane?styles=21015,21016,21018,21020');
+
+            body {
+                height: 100%;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                overflow: auto;
+                padding: 40px 0px;
+            }
+
+            p, span {
+                margin: 0px;
+                color: white;
+            }
+
+            div {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+            }
+
+            .atention-color {
+                background-color: red;
+            }
+
+            .red {
+            color: rgba(224, 13, 22, 1);
+            }
+
+            .white {
+                color: white;
+            }
+
+            .black {
+                color: black;
+            }
+
+            .green {
+                color: rgb(28, 244, 17);
+            }
+
+            .font-15 {
+                font-size: 15px;
+            }
+
+            .content {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                width: 480px;
+                height: 100%;
+                font-family: 'Aganè', sans-serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 20px;
+            }
+
+            .logo img {
+                width: 120px;
+                height: 180px;
+            }
+
+            .logo p {
+                margin: 0.625rem;
+            }
+
+            .logo hr {
+                width: 200px;
+                height: 1px;
+                border: none;
+            }
+
+            .message {
+                width: 350px;
+                margin: 0.625rem;
+                text-align: center;
+            }
+
+            .opportunity {
+                background-color: white;
+                text-transform: uppercase;
+                text-align: center;
+                padding: 0.625rem;
+                margin: 0.625rem;
+                width: 360px;
+            }
+
+            .oportunity-message {
+                margin-bottom: 15px;
+            }
+
+            .discount {
+                width: 590px;
+            }
+
+            .stairaway-to-heaven {
+                width: 150px;
+                height: 200px;
+                margin: 0.625rem;
+                object-fit: cover;
+                border: 1px solid rgba(224, 13, 22, .7);
+                border-radius: 5px;
+            }
+
+            .footer{ 
+                margin-top: 0.625rem;
+            }
+
+            .arrow-body {
+                width: 10px; 
+                height: 100px;
+                background-color: rgba(224, 13, 22, 1);
+            }
+
+            .arrow {
+                width: 0; 
+                height: 0; 
+                border-left: 30px solid transparent;
+                border-right: 30px solid transparent;
+                border-top: 30px solid rgba(224, 13, 22, 1);;
+            }
+
+            .button-redirect {
+                margin: 10px 0px;
+                color: whtie;
+                background-color: #814256;
+                cursor: pointer;
+                border: 1px solid #814256;
+                padding: 15px;
+                border-radius: 5px;
+                text-transform: uppercase;
+            }
+
+            .button-redirect:hover {
+                color: rgba(255, 255, 255, .5);
+                border: 1px solid #814256;
+                padding: 15px;
+            }
+        </style>
+        <title>IGT- Instituto de Guitarra e Rock</title>
+    </head>
+    <body>  
+        <div class="content">
+            <div class="logo">
+                <img src="https://images.cdn-files-a.com/uploads/8825835/400_filter_nobg_65b29e98454cf.png" alt="Instituto de Guitarra e Rock" />
+                <p>Seja bem-vindo ao Instituto de Guitarra e Rock!</p>
+                <hr class="atention-color" />
+            </div>
+            <div class="message">
+                <b><p>Muito obrigado por sua aquisição!</p></b>
+                <p>Em até 48 horas após pagamento do boleto você receberá o acesso ao curso em seu e-mail.</p>
+            </div>
+            <div class="opportunity font-15">
+                 <b class="black"><p class="oportunity-message black">Mas antes de finalizar o pedido, preparamos uma oferta especial para você!</p></b>
+                 <p class="black">Você pode ter <span class="red">acesso vitalício</span> ao curso do zero aos primeiros 30 solos!</p>
+            </div>
+            <div class="discount"> 
+                <span class="discount">Comprando hoje você terá um desconto de <span class="discount=-percentage green">40%</span> no valor final.</span>
+                <img src="https://i.postimg.cc/CxhN9M6Y/thumb.png" class="stairaway-to-heaven" alt="Do zero ao primeiro solo"/>
+                <b><span class="promotion">De <span class="promotion-from">RS: 1.677,00</span> por apenas <span class="promotion-to green">RS: 997,00!</span></span></b>
+            </div>
+            <div class="footer">
+                <div class="arrow-body"></div>
+                <div class="arrow">
+                </div>
+            </div>
+            <span onclick="redirectTo()" class="button-redirect">quero meu acesso vitalício!</span>
+        </div>
+    </body>
+</html>
